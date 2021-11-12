@@ -34,8 +34,8 @@ This is the time zone that will be set during the installation, you can change i
 
 The installation itself is as follows:
 ```bash
-chmod +x stalker_portal_4.9.sh.sh
-./stalker_portal_4.9.sh.sh
+chmod +x stalker_portal_4.9.sh
+./stalker_portal_4.9.sh
 ```
 Accordingly, during the installation, when executing the last command, phing will ask you for the root password for MySQL, enter the password you set on line 11
 
