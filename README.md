@@ -9,7 +9,7 @@ Stalker Portal auto install script on Ubuntu 20.04 LTS / 18.04 LTS
 
 This script work only on Clean Ubuntu 20.04 LTS / 18.04 LTS
 
-Ministra auto install script
+Stalker auto install script
   * Version of Stalker 4.9.35
 
 ## Installation
