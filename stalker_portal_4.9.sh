@@ -9,7 +9,7 @@ apt-get install net-tools -y
 VERSION="4.9.35"
 TIME_ZONE="Europe/Amsterdam" #
 mysql_root_password="test123456"
-repository="https://bob-tv-previous-customize.trycloudflare.com/stalker"
+repository="https://raw.githubusercontent.com/madzharov/stalker/main"
 
 # SET LOCALE TO UTF-8
 function setLocale {
