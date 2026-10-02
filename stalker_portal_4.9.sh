@@ -53,7 +53,7 @@ apt-get install apache2 -y
 /etc/init.d/apache2 stop
 sleep 1
 
-apt-get -y install php5.6-dev php5.6-geoip php5.6-intl php5.6-tidy php5.6-igbinary php5.6-msgpack php5.6-mcrypt php5.6-mbstring php5.6-zip memcached php5.6 php5.6-xml php5.6-gettext php5.6-soap php5.6-mysql php-pear nodejs libapache2-mod-php5.6 php5.6-curl php5.6-imagick php5.6-sqlite3 unzip
+apt-get -y install php5.6-dev php5.6-geoip php5.6-intl php5.6-tidy php5.6-igbinary php5.6-msgpack php5.6-mcrypt php5.6-mbstring php5.6-zip memcached php5.6 php5.6-xml php5.6-gettext php5.6-soap php5.6-mysql php-pear nodejs libapache2-mod-php5.6 libapache2-mod-php php5.6-curl php5.6-imagick php5.6-sqlite3 unzip
 update-alternatives --set php /usr/bin/php5.6
 
 sleep 2
