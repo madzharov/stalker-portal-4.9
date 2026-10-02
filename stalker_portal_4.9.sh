@@ -38,8 +38,10 @@ tweakSystem;
 
 sleep 3
 
+echo -e " \e[32mSetting up PHP 5.6 Repository...\e[0m"
 apt install -y software-properties-common
-add-apt-repository ppa:ondrej/php -y
+curl -sSLo /usr/share/keyrings/deb.sury.org-php.gpg https://packages.sury.org/php/apt.gpg
+echo "deb [signed-by=/usr/share/keyrings/deb.sury.org-php.gpg] https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list
 apt update
 
 echo -e " \e[32mInstall required packages\e[0m"
