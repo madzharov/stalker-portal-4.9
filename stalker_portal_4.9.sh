@@ -62,7 +62,7 @@ echo -e " \e[32mInstalling phing\e[0m"
 sleep 3
 pear channel-discover pear.phing.info
 #pear install -Z phing/phing-2.15.2
-pear install --alldeps phing/phing-2.15.2
+pear install phing/phing-2.15.2
 
 echo -e " \e[32mSet the Server Timezone to EDT\e[0m"
 sleep 3
