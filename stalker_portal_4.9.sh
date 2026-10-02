@@ -4,7 +4,7 @@ echo -e " \e[32mUpdateing system\e[0m"
 sleep 2
 apt-get update -y
 apt-get upgrade -y
-apt-get install net-tools -y 
+apt-get install net-tools locales -y 
 
 VERSION="4.9.35"
 TIME_ZONE="Europe/Amsterdam" #
