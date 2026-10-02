@@ -116,7 +116,7 @@ sed -i "686i\                    this.profile.clock_format = (get_word('time_for
 sed -i "687i\                }\n" /var/www/html/stalker_portal/c/xpcom.common.js
 
 sed -i 's/short_open_tag = Off/short_open_tag = On/g' /etc/php/5.6/apache2/php.ini
-ln -s /etc/php/5.6/mods-available/mcrypt.ini /etc/php/8.0/mods-available/
+ln -s /etc/php/5.6/mods-available/mcrypt.ini /etc/php/8.4/mods-available/
 phpenmod mcrypt
 a2enmod rewrite
 
