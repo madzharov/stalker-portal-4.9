@@ -147,7 +147,7 @@ sed -i -r 's|^(default_timezone =).*|\1'" $TIME_ZONE"'|' config.ini
 sed -i -r 's/^(default_locale =).*/\1 en_US.utf8/' config.ini
 
 cd /var/www/html/stalker_portal/deploy
-#sed -i 's/composer.phar install/composer.phar install --version=1.9.1/g' build.xml
+sed -i 's/composer.phar install/composer.phar install --version=1.10.28/g' build.xml
 sed -i 's/apt-get -y install php-soap php5-intl php-gettext php5-memcache php5-curl php5-mysql php5-tidy php5-imagick php5-geoip curl/apt-get -y install php5.6-soap php5.6-intl php5.6-gettext php5.6-memcache php5.6-curl php5.6-mysql php5.6-tidy php5.6-imagick php5.6-geoip curl/g' build.xml
 sudo phing
 sleep 1
